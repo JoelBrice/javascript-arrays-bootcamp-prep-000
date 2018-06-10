@@ -17,3 +17,9 @@ function addElementToEndOfArray(arr[], element){
 function destructivelyAddElementToEndOfArray(arr[], element){
   return arr.shift(element);
 }
+
+function removeElementFromBeginningOfArray(arr[]){
+  var ar = arr.pop();
+
+  return ar;
+}
