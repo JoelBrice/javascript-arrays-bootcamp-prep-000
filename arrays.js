@@ -23,3 +23,9 @@ function removeElementFromBeginningOfArray(arr[]){
 
   return ar;
 }
+
+function removeElementFromEndOfArray(a[]){
+  var array = a.pop();
+
+  return array;
+}
